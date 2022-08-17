@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="icon" href="img/logo.ico" type="image/x-icon">   
+  <title>Encriptador de Texto con JavaScript</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/0534e99ad8.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="contenedor">
+ 
+  <header class="header">
+    <div class="container logo_titulo_container">
+        <nav class="logo">
+          <img src="img/logo.png" >
+        </nav>
+        
+        <nav class="titulo">
+          <h1>Encriptador de Texto con <span>JavaScript</span></h1>
+        </nav>
+      
+      </div>
+    
+  </header>
+  <div class="fondo">
+
+    <main class="main">
+      <!-- Primera caja-->
+      <div class=""> 
+        <section class="form box tex-box">
+          <form id="formulario">
+           <div class="condicion">
+            <label for="input-texto">Solo letras minúsculas, sin acentos</label>
+            <textarea class="text-input texta1" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui" rows="6" cols="80"></textarea>
+            <div class="button-container">
+              <input class="btn btn1" type="submit" value="Encriptar !!!" id="btn-encriptar">
+              <input class="btn btn2" type="submit" value="Desencriptar !!!" id="btn-desencriptar">
+            </div>
+
+           </div>
+            
+          </form>
+          <div class="msg box move">
+            <label for="mensaje-texto">Mensaje encriptado:</h2></label>
+            
+            <div class=" texta2"> 
+              <textarea class="text-input" name="mensaje-texto" placeholder="Aun no as escrito nada" id="mensaje-texto"rows="6" cols="50"></textarea>  
+            </div>
+            <div class="munheco"><img src="img/Muñeco.png"></div>  
+                  
+            <input class="btn btn3" type="submit" value="Copiar texto" id="btn-copy">
+  
+          </div>
+        </section>
+      
+     
+      </div>
+    </main>
+  </div>
+  
+  <footer class="footer">
+    <p>Elaborado<span class="corazon"></span> por <span>oscar garcia</span> | &copy; 2022</p>
+    <div class="contacto">
+      <a href="https://github.com/OscarIndalecioGarciaFlores" class="github"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/oscar-indalecio-garcia-flores-a6203a121/" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+    
+    
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
